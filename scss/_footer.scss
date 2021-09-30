@@ -1,0 +1,52 @@
+#contacto{
+    grid-area: footer;
+    
+    border-top: black solid 1px;
+    background: radial-gradient(circle, rgba(250,250,250,1) 0%, rgba(252,231,216,1) 81%, rgba(246,198,147,1) 98%);
+   
+}
+
+
+
+
+/* footer */
+.logos-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    a{
+        text-decoration: none;
+        margin: 6px;
+        img:hover{
+            transform: scale(1.15);
+        }
+    }
+}
+
+
+.parrafo-style-fonts{
+    font-family: 'Montserrat', sans-serif;
+    font-style:italic;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (min-width: 1024px){
+    #contacto{
+        .parrafo-style-fonts{
+            font-family: 'Montserrat', sans-serif;
+            font-style:italic;
+            font-weight: 500;
+        }
+
+        .logos-redes{
+            a{
+                margin: 15px;
+                margin-bottom: 0;
+            }
+        }    
+    }
+}

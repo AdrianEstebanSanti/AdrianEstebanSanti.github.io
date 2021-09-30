@@ -1,0 +1,25 @@
+{
+  "name": "3era-entrega-final",
+  "version": "1.0.0",
+  "description": "Germinados de Cuyo es una empresa que se dedica al cultivo y venta de germinados, brotes y microgreens.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/principal.scss css/principalcss.css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianEstebanSanti/AdrianEstebanSanti.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianEstebanSanti/AdrianEstebanSanti.github.io/issues"
+  },
+  "homepage": "https://github.com/AdrianEstebanSanti/AdrianEstebanSanti.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.13"
+  }
+}
