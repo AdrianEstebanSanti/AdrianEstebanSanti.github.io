@@ -7553,6 +7553,9 @@ body {
     .main-beneficios section div {
       width: 800px;
       margin-left: 15px; }
+    .main-beneficios section .videoyoutube {
+      width: 75%;
+      aspect-ratio: 16 / 9; }
   .logosmarcas {
     margin-top: 20px;
     display: flex;
@@ -7576,12 +7579,6 @@ body {
     margin: 6px; }
     .logos-redes a img:hover {
       transform: scale(1.15); }
-
-.parrafo-style-fonts {
-  font-family: 'Montserrat', sans-serif;
-  font-style: italic;
-  margin: 0;
-  text-align: center; }
 
 @media only screen and (min-width: 1024px) {
   #contacto .parrafo-style-fonts {
