@@ -17,7 +17,7 @@ body{
 
 #main{
     background-image: linear-gradient(
-            to right, rgba(10, 10, 10, 0.02), rgba(10,10,10,0.7)), url('../public/img/prueba.jpg');
+            to right, rgba(10, 10, 10, 0.200), rgba(10,10,10,0.7)), url('../public/img/index2.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: left;
@@ -153,7 +153,7 @@ body{
         justify-items: center;
         align-items: center;
         background-image: linear-gradient(
-            to right, rgba(10, 10, 10, 0.02), rgba(10,10,10,0.7)), url('../public/img/prueba.jpg');
+            to right, rgba(10, 10, 10, 0.179), rgba(10, 10, 10, 0.624),rgba(10, 10, 10, 0.179)), url('../public/img/index2.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: left; 
@@ -220,7 +220,7 @@ body{
         justify-items:center;
         align-items: center;
         background-image: linear-gradient(
-            to right, rgba(10, 10, 10, 0.02), rgba(10,10,10,0.7)), url('../public/img/prueba.jpg');
+            to right, rgba(10, 10, 10, 0.179), rgba(10,10,10,0.7),rgba(10, 10, 10, 0.179)), url('../public/img/index2.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: left; 
@@ -229,7 +229,7 @@ body{
     /* grid area */
     #eslogan{
         grid-area: eslogan;
-        justify-self: end; 
+        justify-self: center; 
 
         div{
             width: 660px;
@@ -242,7 +242,7 @@ body{
 
     #frase-main{
             grid-area: frase;
-            justify-self: end;
+            justify-self: center;
             align-self: flex-end;
             width: 660px;
             height: 300px;
@@ -299,7 +299,8 @@ body{
         font-family: 'Roboto', sans-serif;
         font-size: 1.2em;
         font-weight: 500;
-        padding-top: 30px;  
+        padding-top: 30px; 
+        
     }
 
     /* estilo tabla */

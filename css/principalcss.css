@@ -7300,7 +7300,7 @@ body {
   background-color: #f7f7f6; }
 
 #main {
-  background-image: linear-gradient(to right, rgba(10, 10, 10, 0.02), rgba(10, 10, 10, 0.7)), url("../public/img/prueba.jpg");
+  background-image: linear-gradient(to right, rgba(10, 10, 10, 0.2), rgba(10, 10, 10, 0.7)), url("../public/img/index2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left; }
@@ -7395,7 +7395,7 @@ body {
     grid-template-areas: 'eslogan ' 'frase ';
     justify-items: center;
     align-items: center;
-    background-image: linear-gradient(to right, rgba(10, 10, 10, 0.02), rgba(10, 10, 10, 0.7)), url("../public/img/prueba.jpg");
+    background-image: linear-gradient(to right, rgba(10, 10, 10, 0.179), rgba(10, 10, 10, 0.624), rgba(10, 10, 10, 0.179)), url("../public/img/index2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left; }
@@ -7440,14 +7440,14 @@ body {
     grid-template-areas: "eslogan eslogan eslogan" 'frase frase frase' 'cuadros cuadros cuadros';
     justify-items: center;
     align-items: center;
-    background-image: linear-gradient(to right, rgba(10, 10, 10, 0.02), rgba(10, 10, 10, 0.7)), url("../public/img/prueba.jpg");
+    background-image: linear-gradient(to right, rgba(10, 10, 10, 0.179), rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.179)), url("../public/img/index2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left; }
   /* grid area */
   #eslogan {
     grid-area: eslogan;
-    justify-self: end; }
+    justify-self: center; }
     #eslogan div {
       width: 660px;
       height: 300px;
@@ -7458,7 +7458,7 @@ body {
       font-size: 28px; }
   #frase-main {
     grid-area: frase;
-    justify-self: end;
+    justify-self: center;
     align-self: flex-end;
     width: 660px;
     height: 300px;
